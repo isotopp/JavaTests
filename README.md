@@ -26,6 +26,8 @@ Weil wir das nicht tun, müssen wir die Depencency zu `Dependent` in der `pom.xm
 
 # Maven
 
+## /pom.xml
+
 Das Top-Level `pom.xml` deklariert die drei Untermodule,
 
 ```
@@ -38,8 +40,16 @@ Das Top-Level `pom.xml` deklariert die drei Untermodule,
 
 Es muß auch `<packaging>pom</packaging>` mit deklarieren, damit das funktioniert.
 
+## main/pom.xml
+
 Das `main/pom.xml` will einen `Main-Class: de.koehntopp.java.Main` Eintrag in die `MANIFEST.MF` haben. 
 Für diese eine Zeile muß der ganze Quatsch in `<build/>` deklariert werden.
 
+## external/pom.xml
+
 Das `external/pom.xml` will eine Dependency auf `depdendent` deklarieren.
 Dazu muß dort der `<dependencies><depdendency /></dependencies>`-Block erstellt werden.
+
+## depdencies/pom.xml
+
+Hier ist nix besonderes.
