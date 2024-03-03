@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/dependent/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/dependent/target" />
+      <excludeFolder url="file://$MODULE_DIR$/external/target" />
+      <excludeFolder url="file://$MODULE_DIR$/main/target" />
+    </content>
+  </component>
+</module>
