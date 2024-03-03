@@ -10,7 +10,7 @@ $ java -jar main/target/main-1.0-SNAPSHOT.jar
 file:.../dependent/target/dependent-1.0-SNAPSHOT.jar
 file:.../external/target/external-1.0-SNAPSHOT.jar
 file:.../main/target/main-1.0-SNAPSHOT.jar
-Klasse wurde geladen von: file:/Users/kris/IdeaProjects/JavaTests/./external/target/external-1.0-SNAPSHOT.jar
+Klasse wurde geladen von: file:.../external/target/external-1.0-SNAPSHOT.jar
 New Hello from External!
 Hello from Dependent!
 ```
